@@ -4,7 +4,9 @@ import {Register} from './Register';
 export class Main extends React.Component {
     render() {
         return (
-            <div>main</div>
+            <div className="main">
+                <Register/>
+            </div>
         );
     }
 }
